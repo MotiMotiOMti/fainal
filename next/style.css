@@ -1,0 +1,118 @@
+
+.bgci > img {
+    width: 100%;
+    /* margin: 0% 33% 0% ; */
+}
+
+
+
+
+
+
+.bgci {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 0;
+    background-color: #009da2;
+    width: 100%;
+    z-index: 40;
+}
+
+.mt {
+    margin: 0% 0% 0% 0%;
+}
+
+.pic > img {
+    width: 45%;
+    margin: 10% 0% 3% -78%;
+    position: absolute;
+    z-index: 30;
+}
+
+/* .pic-min > img {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    position: absolute;
+    z-index: 20;
+}
+
+.pic-min {
+    margin: 6% -5% 0% 3%;
+}
+
+.pic_group{
+    display: flex;
+    margin: 0% -30% 0% 0%;
+}  */
+
+.mti > img {
+    width: 100%;
+    height: 100%;
+}
+
+.md1{
+    display: flex;
+    position: relative;
+}
+
+/* .md1 > img {
+    width: 50%;
+    position: relative;
+    z-index: 10;
+} */
+
+.md1-img-left{
+    width: 40%;
+    height: 100%;
+}
+
+.md1-img-right{
+    width: 60%;
+    height: 100%;
+}
+
+.md2 > img {
+    width: 100%;
+}
+
+.md2-1{
+    display: flex;
+}
+
+.md2-2 > a > img {
+    width: 75%;
+    margin-left: 23%;
+}
+
+.md2-3 > img {
+    width: 7%;
+    position: absolute;
+    margin: 7% 0% 2% 0%;
+}
+
+.md3 > img {
+    width: 100%;
+    position: relative;
+}
+
+.review > a > img {
+    width: 25%;
+    margin: -14% 0% 0% 63%;
+    position: absolute;
+}
+
+.buy > img {
+    width: 100%;
+}
+
+.cart > img {
+    width: 100%;
+}
+
+.buyorcart {
+    display: flex;
+    margin: -7% 0% 0% 0%;
+    position: absolute;
+}

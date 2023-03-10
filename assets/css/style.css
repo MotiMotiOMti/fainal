@@ -1,0 +1,171 @@
+main{
+    background-color: darkgray;
+}
+
+.main1 {
+    width: 100%;
+}
+
+.main2 {
+    width: 100%;
+    margin: -10% 0% 0% 0%;
+}
+
+.title-2 {
+    margin: 12% 0% -5% 5%;
+    font-size: 200%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+
+.scroll_content { /* リスト全体のスタイル */
+  display: flex;
+  /* max-width: 800px; */
+  margin: auto;
+  overflow-x: auto;
+}
+ 
+.scroll_content li { /* 各リストのスタイル */
+  width: 90%;
+  padding: 8px;
+  margin: 3px;
+  flex-shrink: 0;
+  list-style: none;
+}
+
+.scroll_content > h2 {
+  font-size: 2%;
+  color: white;
+  margin: 0% 0% 0% 0%;
+}
+ 
+.scroll_content img { /* 画像のスタイル */
+  width: 100%;
+  /* max-height: 200px; */
+  object-fit: cover;
+  margin: 2% 0% 0% -8%;
+
+}
+ 
+/* .scroll_content::-webkit-scrollbar {
+  height: 12px; スクロールバーの高さ
+} */
+ 
+/* .scroll_content::-webkit-scrollbar-thumb {
+  background: #aaa; ツマミの色
+  border-radius: 6px; ツマミ両端の丸み
+} */
+ 
+/* .scroll_content::-webkit-scrollbar-track {
+  background: #ddd; トラックの色
+  border-radius: 6px; トラック両端の丸み
+}
+  */
+ 
+@media screen and (min-width: 450px) {
+ 
+  .scroll_content li {
+    width: 45%;
+  }
+ 
+}
+
+
+.all{
+    background-color: black;
+}
+
+/* .footer {} */
+
+.lg-flex md-justify-between {
+    display: flex;
+}
+
+html {
+    font-family: sans-serif;
+  }
+  
+  body {
+    background: #333;
+  }
+  
+  ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  a {
+    color: #4b5564;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  hr {
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #e5e7eb;
+  }
+  
+  .grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1rem;
+    margin-bottom: 1.5rem;
+  }
+  
+  .footer {
+    padding: 2rem;
+    font-size: 15px;
+    color: #4b5564;
+    background: #fff;
+  }
+  
+  .footer__navi-heading {
+    font-weight: 600;
+  }
+  
+  .footer__logo {
+    display: inline-block;
+    margin-bottom: 2rem;
+  }
+  
+  .footer__navi > li > a {
+    margin-bottom: 12%;
+    text-decoration-line: none;
+    color: #009da2;
+  }
+  
+  @media (min-width: 768px) {
+    .md-flex {
+      display: flex;
+    }
+  
+    .md-justify-between {
+      justify-content: space-between;
+    }
+  
+    .grid {
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  
+  @media (min-width: 1024px) {
+    .md-flex {
+      display: flex;
+    }
+  
+    .md-justify-between {
+      justify-content: space-between;
+    }
+  
+    .grid {
+      grid-template-columns: repeat(5, minmax(0, 1fr));
+    }
+  }
+  
+  
+  
+  Resources
